@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <!--<com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/primaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/addSubjects"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Add Subjects"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:onClick="addSubjectCode"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/secondaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/viewSubjects"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="View Subjects"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:onClick="viewSubjectCode"/>
+
+        </com.google.android.material.card.MaterialCardView>-->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/primaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/addBooks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Add Books"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:onClick="addBookCode"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/secondaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/viewBooks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="View Books"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/primaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/addPpt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Add PPT"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@color/secondaryDark"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/uploadPdfFile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="View PPT"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryLight"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AcaDroid AIO Admin</string>
+
+    <string-array name="class_array">
+        <item>BFA</item>
+        <item>BCOM</item>
+        <item>BFM</item>
+        <item>BSCIT</item>
+        <item>BSC</item>
+        <item>BBI</item>
+    </string-array>
+
+    <string-array name="grade_array">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+        <item>SIX</item>
+    </string-array>
+</resources>
